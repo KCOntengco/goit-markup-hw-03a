@@ -355,3 +355,76 @@ div .card-content {
     letter-spacing: 0.32px;
 }
 /*END OF FOOTER*/
+
+
+.portfolio {
+    width: 1440px;
+    height: 2076px;
+}
+
+
+/*PORTFOLIO BUTTONS*/
+.portfolio-buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.portfolio-buttons .active:hover,
+.portfolio-buttons .active:focus  {
+    display: flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    color: var(--WHITE);
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.filter-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;     /* 150% */
+    letter-spacing: 0.64px;
+}
+/*END OF PORTFOLIO BUTTONS*/
+.div uno, dos, tres {
+    display:flex;
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.proj-card {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+
+    list-style: none;
+}
+
